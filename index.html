@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Palindromo</title>
+    <!-- Hoja de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <h1>¿Es Palindromo?</h1>
+        <div class="palindrome-div">
+            <label for="text-input">Ingrese un texto para verificar si es palíndromo:</label>
+            <input type="text" id="text-input">
+            <button id="check-btn">Verificar</button>
+        </div>
+        <!-- Resultado Es Palindromo -->      
+        <div class="div-result">
+            <p id="result"></p>
+        </div>
+        <!-- Definición Palindromo -->
+        <div class="palindrome-definition-div">
+            <p class="palindrome-definition">
+            <span role="img" aria-label="light-bulb">💡</span>
+            Un <dfn>palíndromo</dfn> es una palabra u oración que se escribe
+            de la misma manera tanto hacia adelante como hacia atrás, ignorando 
+            la puntuación, las mayúsculas y los espacios.
+            </p>
+        </div>
+    </div>
+    <!-- Script Js -->
+    <script src="script.js"></script>
+</body>
+</html>

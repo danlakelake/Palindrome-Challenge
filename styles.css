@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body, html {
+    height:100%;
+    margin:0;
+    display: block;
+    font-family: "Roboto", serif;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.palindrome-div {
+    margin: 20px 0;
+}
+
+.palindrome-div label{
+    display: block;
+    color: grey;
+    font-size: 1.1rem;
+}
+
+.palindrome-div #text-input{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 30px 20px 20px;
+    border: none;
+    border-bottom: 2px solid #5a01a7;
+}
+
+.palindrome-div #check-btn{
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.palindrome-definition-div{
+    padding: 0.5rem 1.1rem;
+    background-color:#00471b;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.div-result #result{
+    margin-top:0;
+    font-size:1.5rem;
+    font-weight: 500;
+}
