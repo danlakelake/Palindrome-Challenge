@@ -24,7 +24,7 @@ function esPalindromo(){
 
     // Paso 3: Comparar la cadena limpia con la invertida
     // Almacena la comparación en una constante resultado
-    const resultado = cadenaLimpia === cadenaInvertida ? `${cadena} es Palindromo` : `${cadena} no es Palindromo`;
+    const resultado = cadenaLimpia === cadenaInvertida ? `${cadena} es Palíndromo` : `${cadena} no es Palíndromo`;
     result.innerText = resultado;
 }
 
