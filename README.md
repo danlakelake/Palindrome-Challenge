@@ -1,4 +1,4 @@
 # Palindrome Challenge - Desafío Palíndromo
 
-**Puedes ver la versión desplegada de la app aquí:**\
+🔗 **Live demo / Demo en línea:**
 https://cozy-speculoos-cd045f.netlify.app/
